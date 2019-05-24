@@ -1,7 +1,12 @@
 # Tradeshift - Triangle Challenge
 
 ## Running this project
-1. git clone
+
+Node.js and NPM are needed to run this project. Get it here: https://nodejs.org/en/download/
+
+After installing Node.js,
+
+1. git clone https://github.com/GabrielAmazonas/tradeshift-triangle
 2. cd tradeshift-triangle
 3. npm install
 4. npm start
