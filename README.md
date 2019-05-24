@@ -1,4 +1,4 @@
-#Tradeshift - Triangle Challenge
+# Tradeshift - Triangle Challenge
 
 ## Running this project
 git clone
@@ -10,10 +10,10 @@ npm start
 This project is purposely over-engineered.The general idea is to serve as a starting-point for more complex React-Redux projects.
 Also, you can use it to check if, given 3 side sizes, a triangle is formed and which kind of triangle it forms, if it does.
 
-##Cool-Things
+## Cool-Things
 The Tradeshift UI library can be easily integrated in new React projects, as shown in this example. Also, as React can be used in any Front-End project (Inside Angular or Vue projects, for example) it can be added gradually in any project, too.
 
-##TO-DO
+## TO-DO
 Include API requests (server-side interaction) on the actions used by the components.
 Include Component Rendering test examples.
 
