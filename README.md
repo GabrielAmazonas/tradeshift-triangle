@@ -11,6 +11,10 @@ After installing Node.js,
 3. npm install
 4. npm start
 
+## Running the tests
+On projects folder:
+- npm run test
+
 ## Summary
 This project is purposely over-engineered.The general idea is to serve as a starting-point for more complex React-Redux projects.
 Also, you can use it to check if, given 3 side sizes, a triangle is formed and which kind of triangle it forms, if it does.
