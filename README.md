@@ -1,10 +1,10 @@
 # Tradeshift - Triangle Challenge
 
 ## Running this project
-git clone
-cd tradeshift-triangle
-npm install
-npm start
+1. git clone
+2. cd tradeshift-triangle
+3. npm install
+4. npm start
 
 ## Summary
 This project is purposely over-engineered.The general idea is to serve as a starting-point for more complex React-Redux projects.
@@ -19,9 +19,9 @@ Include Component Rendering test examples.
 
 
 ## Front-End Architecture
-React - Component Creation Library
-Redux - Client-Side state management library
-Styled Components - Component Styling management library
-Jest - Front-End Testing Library
-Tradeshift UI - UI Components Library
+- React - Component Creation Library
+- Redux - Client-Side state management library
+- Styled Components - Component Styling management library
+- Jest - Front-End Testing Library
+- Tradeshift UI - UI Components Library
 
