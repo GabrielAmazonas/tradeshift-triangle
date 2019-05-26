@@ -30,6 +30,7 @@ Include Component Rendering test examples.
 ## Front-End Architecture
 - React - Component Creation Library
 - Redux - Client-Side state management library
+- React-Router - Routing management library
 - Styled Components - Component Styling management library
 - Jest - Front-End Testing Library
 - Tradeshift UI - UI Components Library
