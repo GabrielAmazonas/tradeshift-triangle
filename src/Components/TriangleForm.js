@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { withRouter } from 'react-router-dom';
 import * as triangleActions from '../Actions/triangle'
+import * as loginActions from '../Actions/login'
 import '../App.css';
 import Triangle from './Triangle'
 import TextBoard from './TextBoard'
@@ -18,10 +19,17 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = dispatch =>
     bindActionCreators({
-        ...triangleActions
+        ...triangleActions,
+        ...loginActions
     }, dispatch)
 
+
+
 class TriangleForm extends Component {
+    logout = () => {
+        this.props.changeUserName("")
+        this.props.history.push("/")
+    }
 
     render(){
 
@@ -50,7 +58,7 @@ class TriangleForm extends Component {
                             </label>
                         </fieldset>
                     </form>
-                    <button onClick={() => this.props.history.push("/")} data-ts="Button" className="ts-primary">
+                    <button onClick={() => this.logout()} data-ts="Button" className="ts-primary">
                         <span>Logout</span>
                     </button>
                 </div>
