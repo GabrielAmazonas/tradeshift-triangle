@@ -20,6 +20,8 @@ This project is purposely over-engineered.The general idea is to serve as a star
 Also, you can use it to check if, given 3 side sizes, a triangle is formed and which kind of triangle it forms, if it does.
 
 ## Cool-Things
+The Triangle draws aren't correct in size, mathematically. They are just a way to show how to change CSS dynamically using Styled Components and Redux.
+
 The Tradeshift UI library can be easily integrated in new React projects, as shown in this example. Also, as React can be used in any Front-End project (Inside Angular or Vue projects, for example) it can be added gradually in any project, too.
 
 ## TO-DO
